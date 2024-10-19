@@ -1,0 +1,52 @@
+ body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    .entry-container {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      box-shadow: 9px 9px 20px black;
+      border-radius: 10px;
+      /* Add animation */
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .entry-container h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .entry-container p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+
+    .entry-container button {
+      padding: 10px 20px;
+      font-size: 1.2em;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .entry-container button:hover {
+      background-color: #2980b9;
+    }
+
+    /* Define animation */
+    @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+    }

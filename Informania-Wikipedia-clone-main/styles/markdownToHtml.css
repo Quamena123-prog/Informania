@@ -1,0 +1,35 @@
+body{
+  font-family: arial;
+}
+.markdownContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  box-shadow: 5px 8px 15px;
+  padding-block: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
+}
+
+h2{
+  color: white;
+}
+
+button{
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: medium;
+  transition: 0.3s;
+  border: none;
+}
+ button:hover{
+  background-color: rgba(192, 192, 192, 0.7);
+  color: white;
+  cursor: pointer;
+}
+button:active{
+  box-shadow: 2px 4px 6px;
+}
+

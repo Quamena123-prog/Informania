@@ -1,0 +1,136 @@
+
+body{
+  font-family: arial;
+}
+p{
+  margin: 0;
+  margin-bottom: 18px;
+  color: white;
+}
+.top{
+  font-size: 25px;
+  font-weight: 600;
+  
+}
+.low{
+  font-size: 10px;
+}
+.topSection{ 
+  text-align: center;
+  background-color: rgb(104, 104, 104);
+  height: 180px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  left: 0;
+  right: 0;
+}
+.searchBar{
+  margin: auto;
+  width: 260px;
+  height: 25px;
+  font-size: 12px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 18px;
+  padding-left: 10px;
+}
+ button{
+  background-color: rgb(172, 171, 171);
+  color: white;
+  padding: 6px 20px;
+  margin: 0px 3px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  
+ }
+ button:hover{
+  opacity: 0.3;
+ }
+
+
+ .credits{
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgb(159, 159, 159);
+  margin-top: 30px;
+ }
+ .credits p{
+  color: black;
+  margin: 25px 8px;
+  font-size: 15px;
+ }
+
+.articleContainer{
+  display: flex;
+  justify-content: space-around;
+  margin-block: 30px;
+  align-items: center;
+}
+.sample,.profileContainer{
+  display: flex;
+  justify-content: flex-start;
+}
+.sample{
+  border: 1px solid rgb(220, 220, 220);
+  padding: 10px 10px;
+  border-radius: 6px;
+  margin-block: 15px;
+}
+
+.graySquare{
+  background-color: rgb(233, 233, 233);
+  height: 60px;
+  width: 60px;
+  margin-right: 8px;
+}
+.graySquare img{
+  background-color: rgb(233, 233, 233);
+  height: 60px;
+  width: 60px;
+  margin-right: 8px;
+  object-fit: cover;
+  object-position: center;
+  margin-left: 1px;
+}
+
+.content button{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.content p{
+  color: black;
+  line-height: 5px;
+}
+.content .title{
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.content .author{
+  font-size: 9px;
+  color: gray;
+}
+.rightPart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content .text{
+  line-height: 10px;
+  width: 200px;
+}
+
+img{
+  width: 20px;
+  height: 20px;
+  margin-bottom: -5px;
+  margin-left: -35px;
+  z-index: 1;
+  cursor: pointer;
+}
+

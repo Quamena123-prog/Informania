@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create New Artcile</title>
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/createArticle.css">
+</head>
+<body style="font-family: arial;">
+
+    <div class="header">
+      <div class="leftSection">
+        <div class="circle">
+          <img src="thumbnail/book globe.jpg" alt="">
+        </div>
+    
+        <div class="midSection" onclick="location.href='entryPage.html'">My Encyclopedia</div>
+      </div>
+
+      <div class="rightSection">
+        <p onclick="location.href='index.html'" class="home">Home</p>
+        <span onclick="location.href='createArticlePage.html'" id="active">Create New Article</span>
+        <p onclick="location.href='about.html'" class="about">About Us</p>
+      </div>
+    </div>
+
+    <div class="createContainer">
+    
+      <div class="create">
+    
+        <h2>Create a New Article</h2> <br>
+          <p>Title</p>
+          <input type="text" placeholder="Enter article title"><br>
+          <p>Content</p>
+          <textarea cols="40" rows="10" placeholder="Enter article content"></textarea>
+          
+          <p id="markdown" onclick="location.href='markdownToHtml.html'">Convert Markdown to Html</p>
+    
+          <div class="buttonCon">
+            <button class="cancel">Cancel</button>
+            <button class="create">Create</button>
+          </div>
+    
+      </div>
+    
+    </div>
+</body>
+</html>
+

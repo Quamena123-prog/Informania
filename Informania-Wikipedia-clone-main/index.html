@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Encyclopedia</title>
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/categories.css">
+</head>
+<body>
+  <div class="header">
+    <div class="leftSection">
+      <div class="circle">
+        <img src="thumbnail/book globe.jpg" alt="">
+      </div>
+    
+      <div class="midSection" onclick="location.href='entryPage.html'">My Encyclopedia</div>
+    </div>
+    <div class="rightSection">
+      <p onclick="location.href='index.html'" class="home" id="active">Home</p>
+      <span onclick="location.href='createArticlePage.html'">Create New Article</span>
+      <p onclick="location.href='about.html'" class="about">About Us</p>
+     
+      
+    </div>
+  </div>
+    <div class="topSection">
+      <p class="top">Welcome to Informania</p>
+      <p class="low">Explore a vast collection of knowledge</p>
+      <input class="searchBar" type="search" placeholder="Search..."> 
+      <img src="icons8-search.svg" alt="search button" class="submitImage">
+      <br>
+      <button>Featured</button>
+      <button>Popular</button>
+      <button>Recent</button>
+    </div>
+    
+
+    <div class="articleContainer">
+
+      <div class="leftPart">
+        <h3>Featured Articles</h3>
+      </div>
+
+      <div class="rightPart">
+
+        <div class="sample">
+
+          <div class="graySquare">
+            <img src="thumbnail/ancient rome.jpg">
+          </div>
+
+          <div class="content">
+
+            <p class="title">The History of Ancient Rome</p>
+            <p class="author">By John Doe</p>
+            <p class="text">Ancient Rome began as an Italic settlement, traditionally dated to 753 BC, beside the River Tiber in the Italian
+            Peninsula. The settlement grew into the city and polity of Rome, and came to control its neighbours through a
+            combination of treaties and military strength...</p>
+
+            <button class="edit-button" onclick="location.href='editPage.html'">Edit</button>
+          </div>
+
+        </div>
+
+        <div class="sample">
+        
+          <div class="graySquare">
+            <img src="thumbnail/quantum physics.jpg">
+          </div>
+        
+          <div class="content">
+        
+            <p class="title">Introduction to Quantum Physics</p>
+            <p class="author">By John Doe</p>
+            <p class="text">Quantum physics is the study of matter and energy at the most fundamental level. It aims to uncover the properties and
+            behaviors of the very building blocks of nature...</p>
+        
+            <button class="edit-button" onclick="location.href='editPage.html'">Edit</button>
+          </div>
+        
+        </div>
+
+        <div class="sample">
+        
+          <div class="graySquare">
+            <img src="thumbnail/leonardo da vinci.jpg">
+          </div>
+        
+          <div class="content">
+        
+            <p class="title">The Life of Leonardo da Vinci</p>
+            <p class="author">By John Doe</p>
+            <p class="text">Leonardo di ser Piero da Vinci[b] (15 April 1452 – 2 May 1519) was an Italian polymath of the High Renaissance who was
+            active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect...</p>
+      
+            <button class="edit-button" onclick="location.href='editPage.html'">Edit</button>
+          </div>
+        
+        </div>
+
+        
+      </div>
+    </div>
+    <div class="catContainer">
+
+      Categories
+
+      <div class="categories">
+        <div class="icon">
+          <a href="https://en.wikipedia.org/wiki/Geography" target="_blank">
+            <img src="icons/globe.png" alt="Globe">
+          </a>
+          <p class="subject">Geography</p>
+          <p class="text">Explore the world and its wonders</p>
+        </div>
+  
+        <div class="icon">
+          <a href="https://en.wikipedia.org/wiki/Science" target="_blank">
+            <img src="icons/microscope.png" alt="Globe">
+          </a>
+          <p class="subject">Science</p>
+          <p class="text">Discover the mysteries of the universe</p>
+        </div>
+  
+        <div class="icon">
+          <a href="https://en.wikipedia.org/wiki/History" target="_blank">
+            <img src="icons/history.png" alt="Globe">
+          </a>
+          <p class="subject">History</p>
+          <p class="text">Uncover the stories of the past</p>
+        </div>
+  
+      </div>
+    </div>
+
+    <div class="credits">
+      <p>&#169;2024 My Encyclopedia. All rights reserved.</p>
+      <p>Terms of Service</p>
+      <p>Privacy Policy</p>
+      <p>Contact Us</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+

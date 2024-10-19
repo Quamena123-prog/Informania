@@ -1,0 +1,42 @@
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .about-container{
+     display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+    padding-block: 20px;
+   
+    border-radius: 6px;
+}
+    .content {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 10px;
+      animation: fadeIn 2s ease-in-out;
+      color: white;
+      box-shadow: 9px 9px 20px black;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
